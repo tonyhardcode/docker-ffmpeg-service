@@ -17,6 +17,14 @@ exports.types = {
             '-codec:a libmp3lame',
         ],
     },
+    wav: {
+        extension: 'wav',
+        outputOptions: [
+            '-b:v 16k',
+            '-q:a 32k',
+            '-t 29',
+        ],
+    },
     mp4: {
         extension: 'mp4',
         outputOptions: [
