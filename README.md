@@ -4,6 +4,10 @@ An web service for converting audio/video files using Nodejs, Express and FFMPEG
 
 Based off of jrottenberg/ffmpeg container
 
+## Docker image
+
+https://hub.docker.com/r/frederiksen/docker-ffmpeg-service/
+
 ## Endpoints
 
 > POST /mp3 - Convert audio file in request body to mp3
