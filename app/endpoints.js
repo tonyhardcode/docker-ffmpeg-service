@@ -5,12 +5,6 @@ exports.types = {
             '-pix_fmt yuv422p',
         ],
     },
-    m4a: {
-        extension: 'm4a',
-        outputOptions: [
-            '-codec:a libfdk_aac',
-        ],
-    },
     mp3: {
         extension: 'mp3',
         outputOptions: [
@@ -20,9 +14,10 @@ exports.types = {
     wav: {
         extension: 'wav',
         outputOptions: [
-            '-b:v 16k',
-            '-q:a 32k',
-            '-t 29',
+            '-ac 1',
+            '-ar 16000',
+            '-t 20',
+            '-sample_fmt s16'
         ],
     },
     mp4: {
