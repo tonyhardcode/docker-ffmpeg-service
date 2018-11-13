@@ -20,7 +20,9 @@ for (let prop in endpoints.types) {
         app.post('/' + prop, function(req, res) {
             let hitLimit = false;
             let fileName = '';
-            let savedFile = uniqueFilename(__dirname + '/uploads/');
+            //let savedFile = uniqueFilename(__dirname + '/uploads/');
+            // Testing...
+            let savedFile = uniqueFilename(__dirname + '/');
             let busboy = new Busboy({
                 headers: req.headers,
                 limits: {
