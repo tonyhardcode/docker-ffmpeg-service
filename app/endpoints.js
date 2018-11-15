@@ -3,6 +3,7 @@ exports.types = {
         extension: 'bmp',
         outputOptions: [
             '-s 128x32',
+            '-pix_fmt bgr1',
         ],
     },
     wav: {
