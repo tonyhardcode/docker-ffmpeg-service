@@ -64,7 +64,7 @@ Check for errors with ESLint:
 ## Running Local Docker Container
 
 Build Docker Image from Dockerfile with a set image tag. ex: docker-ffpmeg
-> $ docker build -t tonyhardcore/docker-ffmpeg .
+> $ docker build -t tonyhardcode/docker-ffmpeg .
 
 Launch Docker Container from Docker Image, exposing port 9025 on localhost only
 
@@ -73,7 +73,7 @@ Launch Docker Container from Docker Image, exposing port 9025 on localhost only
     --restart=always \
     -v /storage/tmpfs:/usr/src/app/uploads \
     -p 9025:3000 \
-    tonyhardcore/docker-ffmpeg
+    tonyhardcode/docker-ffmpeg
 
 Launch Docker Container from Docker Image, exposing port 9026 on all IPs
-> docker run -p 9025:3000 -d tonyhardcore/docker-ffmpeg
+> docker run -p 9025:3000 -d tonyhardcode/docker-ffmpeg
