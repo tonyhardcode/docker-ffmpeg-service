@@ -75,5 +75,5 @@ Launch Docker Container from Docker Image, exposing port 9025 on localhost only
     -p 9025:3000 \
     tonyhardcode/docker-ffmpeg-service
 
-Launch Docker Container from Docker Image, exposing port 9026 on all IPs
+Launch Docker Container from Docker Image, exposing port 9025 on all IPs
 > docker run -p 9025:3000 -d tonyhardcode/docker-ffmpeg-service
